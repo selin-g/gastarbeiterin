@@ -175,7 +175,7 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>Mein Name ist Selin Göktaş. Ich bin Masterstudierende der Medienwissenschaft und Gender Studies an der Ruhr-Universität Bochum und gehöre, wie viele meiner Kommiliton:innen aus dem Ruhrgebiet, zur ersten in Deutschland geborenen Generation von sogenannten Gastarbeitenden aus der Türkei. Schon als Kind stellte ich viele Fragen zu meinem familiären Hintergrund. Bis heute erzählt mir meine mittlerweile 95-jährige Großmutter von ihre Ankunft in Deutschland, vor allem aber von ihrer ermüdenden Fließbandarbeit beim Metallwerk <em>Seppelfricke</em> in Gelsenkirchen. Als Erstakademikerin der Familie ist es ein Privileg, mich wissenschaftlich mit ihrer intersektionalen Situierung als <em>Fremde</em>, Arbeiterin, Hausfrau und Mutter von sieben Kindern zu beschäftigen. Es ist eine fast unsichtbare geteilte Lebenerfahrung von <em>Gastarbeiterinnen</em>, die es verdient sichtbar gemacht und geehrt zu werden.</p>
+<p>Mein Name ist Selin Göktaş. Ich bin Masterstudierende der Medienwissenschaft und Gender Studies an der Ruhr-Universität Bochum und gehöre, wie viele meiner Kommiliton:innen aus dem Ruhrgebiet, zur ersten in Deutschland geborenen Generation von sogenannten Gastarbeitenden aus der Türkei. Schon als Kind stellte ich viele Fragen zu meinem familiären Hintergrund. Bis heute erzählt mir meine mittlerweile 95-jährige Großmutter von ihrer Ankunft in Deutschland, vor allem aber von ihrer ermüdenden Fließbandarbeit beim Metallwerk <em>Seppelfricke</em> in Gelsenkirchen. Als Erstakademikerin der Familie ist es ein Privileg, mich wissenschaftlich mit ihrer intersektionalen Situierung als <em>Fremde</em>, Arbeiterin, Hausfrau und Mutter von sieben Kindern zu beschäftigen. Es ist eine fast unsichtbare geteilte Lebenserfahrung von <em>Gastarbeiterinnen</em>, die es verdient, sichtbar gemacht und geehrt zu werden.</p>
 <div style="display: flex; gap: 2em; justify-content: center; margin: 2em 0;">
 <div style="width: calc(50% - 1em);">
 <div style="width: 100%; height: 450px; overflow: hidden; border: 3px solid #000; box-shadow: 4px 4px 0px #000;">
@@ -196,7 +196,7 @@ Meine Großmutter Hamide May (geboren 01.01.1931 in Adana/Türkei). © privat.
 </div>
 <section id="über-den-kurs" class="level2">
 <h2 class="anchored" data-anchor-id="über-den-kurs">Über den Kurs</h2>
-<p>Die Webseite ist im Rahmen des Projektseminars „Theorie und Praxis digitaler Methoden: Staatliche Erinnerungspolitik und digitale Archive” bei Jun.-Prof.&nbsp;Dr.&nbsp;Johannes Paßmann und Mika Schories an der Ruhr-Universität Bochum entstanden.</p>
+<p>Die Webseite ist im Rahmen des Projektseminars „Theorie und Praxis digitaler Methoden: Staatliche Erinnerungspolitik und digitale Archive” von Jun.-Prof.&nbsp;Dr.&nbsp;Johannes Paßmann und Mika Schories an der Ruhr-Universität Bochum entstanden.</p>
 </section>
 <section id="impressum" class="level2 no-justify">
 <h2 class="anchored" data-anchor-id="impressum">Impressum</h2>
@@ -216,17 +216,29 @@ Tel.: +49 234 32-24761</p>
 
 </main> <!-- /main -->
 <script>
+
 window.addEventListener('hashchange', function () {
+
   const hash = window.location.hash.slice(1);
+
   const target = document.getElementById(hash);
+
   if (!target) return;
+
   const offset = hash.startsWith('fn') ? 100 : 60;
+
   setTimeout(function () {
+
     const y = target.getBoundingClientRect().top + window.scrollY - offset;
+
     window.scrollTo({ top: Math.max(0, y), behavior: 'instant' });
+
   }, 80);
+
 });
+
 </script>
+
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     const icon = "";

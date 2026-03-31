@@ -1,9 +1,7 @@
-/* FOOTNOTES: text size */
 .footnotes ol {
   font-size: 0.5em;
 }
 
-/* FOOTNOTES: links and back-references */
 a.footnote-ref {
   color: #B932F0 !important;
   font-weight: bold;
@@ -24,7 +22,6 @@ a.footnote-back:hover,
   color: #b852cc !important;
 }
 
-/* TOC: hover and active color */
 #TOC a {
   color: #B932F0 !important;
 }
@@ -40,17 +37,14 @@ a.footnote-back:hover,
   font-weight: bold;
 }
 
-/* JUSTIFIED TEXT: all main content paragraphs */
 main p {
   text-align: justify;
 }
 
-/* EXCEPTIONS: poems, impressum, no-justify sections */
 .poem p, .no-justify p {
   text-align: left;
 }
 
-/* BLOCKQUOTE: Neo-Brutalist cite style */
 blockquote {
   border: 3px solid #000000;
   box-shadow: 4px 4px 0px #000000;
@@ -61,8 +55,6 @@ blockquote {
   color: #000000 !important;
   position: relative;
 }
-
-
 
 blockquote::before {
   content: "\201C";
@@ -95,44 +87,36 @@ blockquote p {
   padding-left: 1.2em;
 }
 
-/* IMAGES & VIDEOS: Neo-Brutalist frame */
 main img, main video {
   border: 3px solid #000000;
   box-shadow: 4px 4px 0px #000000;
 }
 
-/* NAVBAR: Der Showroom-Look */
 .navbar {
-  border: 3px solid #000000 !important; /* Dicker schwarzer Rahmen */
-  margin: 10px; /* Lässt die Navbar "schweben" wie im Showroom */
-  background-color: #ffffff !important; /* Weißer Hintergrund */
-  box-shadow: 4px 4px 0px #000000; /* Der markante Schatten */
+  border: 3px solid #000000 !important;
+  margin: 10px;
+  background-color: #ffffff !important;
+  box-shadow: 4px 4px 0px #000000;
 }
 
-/* NAVBAR LOGO: larger fist image */
 .navbar-logo {
   height: 40px !important;
   max-height: 40px !important;
 }
 
-/* Hide navbar text title — logo image only */
 .navbar-brand-title,
 .navbar-title,
 .navbar-brand span {
   display: none !important;
 }
 
-/* NAVBAR LINKS & TEXT */
 .navbar-nav .nav-link {
   color: #000000 !important;
-  font-weight: 800 !important; /* Extra fett */
+  font-weight: 800 !important;
   text-transform: uppercase;
   padding: 10px 15px !important;
 }
 
-/* === SUCHLEISTE - Brite Theme Showroom Style === */
-
-/* Das Suchformular in der Navbar */
 #quarto-search .aa-Form {
   border: 3px solid #000000 !important;
   border-radius: 0px !important;
@@ -146,7 +130,6 @@ main img, main video {
   transform: translate(-2px, -2px);
 }
 
-/* Das Input-Feld */
 #quarto-search .aa-Input {
   background-color: #ffffff !important;
   color: #000000 !important;
@@ -160,7 +143,6 @@ main img, main video {
   font-weight: 500;
 }
 
-/* Der Submit-Button (Lupe-Icon) */
 #quarto-search .aa-SubmitButton {
   background: transparent !important;
   border: none !important;
@@ -168,7 +150,6 @@ main img, main video {
   color: #000000 !important;
 }
 
-/* Der Clear-Button (X) */
 #quarto-search .aa-ClearButton {
   background: transparent !important;
   border: none !important;
@@ -176,7 +157,6 @@ main img, main video {
   color: #000000 !important;
 }
 
-/* Detached-Mode: Nur Lupe sichtbar (Mobilansicht) */
 #quarto-search .aa-DetachedSearchButton {
   border: 3px solid #000000 !important;
   border-radius: 0px !important;
@@ -192,7 +172,6 @@ main img, main video {
   background-color: #b852cc !important;
 }
 
-/* Das Ergebnis-Panel */
 #quarto-search-results .aa-Panel {
   border: 3px solid #000000 !important;
   border-radius: 0px !important;
@@ -200,7 +179,6 @@ main img, main video {
   background-color: #ffffff !important;
 }
 
-/* Einzelne Suchergebnisse */
 .search-result-link {
   border-bottom: 2px solid #000000 !important;
   display: block;
@@ -213,13 +191,11 @@ main img, main video {
   background-color: #b852cc !important;
 }
 
-/* Ergebnis-Titel */
 .search-result-title {
   font-weight: 800 !important;
   color: #000000 !important;
 }
 
-/* Hervorgehobene Suchtreffer */
 mark.search-match {
   background-color: #b852cc !important;
   color: #000000 !important;
@@ -227,21 +203,16 @@ mark.search-match {
   padding: 0 2px;
 }
 
-/* "Keine Ergebnisse"-Meldung */
 .quarto-search-no-results {
   font-weight: 700;
   padding: 10px;
   border-top: 2px solid #000;
 }
 
-/* === SUCH-MODAL (Detached/Overlay Mode) === */
-
-/* Der dunkle Hintergrund hinter dem Modal */
 .aa-DetachedOverlay {
   background-color: rgba(0, 0, 0, 0.6) !important;
 }
 
-/* Der Modal-Container */
 .aa-DetachedContainer {
   border: 3px solid #000000 !important;
   border-radius: 0px !important;
@@ -251,7 +222,6 @@ mark.search-match {
   margin: 40px auto !important;
 }
 
-/* Der Bereich mit dem Suchfeld im Modal */
 .aa-DetachedFormContainer {
   border-bottom: 3px solid #000000 !important;
   background-color: #b852cc !important;
@@ -261,7 +231,6 @@ mark.search-match {
   gap: 10px !important;
 }
 
-/* Das Formular im Modal */
 .aa-DetachedFormContainer .aa-Form {
   border: 3px solid #000000 !important;
   border-radius: 0px !important;
@@ -275,7 +244,6 @@ mark.search-match {
   transform: translate(-2px, -2px);
 }
 
-/* Abbrechen-Button */
 .aa-DetachedCancelButton {
   border: 3px solid #000000 !important;
   border-radius: 0px !important;
@@ -297,7 +265,6 @@ mark.search-match {
   color: #b852cc !important;
 }
 
-/* Ergebnisliste im Modal */
 .aa-Panel,
 .aa-PanelLayout {
   background-color: #ffffff !important;
@@ -309,7 +276,6 @@ mark.search-match {
   list-style: none !important;
 }
 
-/* Einzelne Ergebnis-Einträge */
 .aa-Item {
   border-bottom: 2px solid #000000 !important;
   padding: 0 !important;
@@ -326,7 +292,6 @@ mark.search-match {
   background-color: #b852cc !important;
 }
 
-/* Hervorgehobener Text in Ergebnissen */
 .aa-highlight,
 mark.search-match {
   background-color: #b852cc !important;
@@ -334,8 +299,6 @@ mark.search-match {
   font-weight: 800 !important;
   padding: 0 2px;
 }
-
-/* === FUSSNOTEN-TOOLTIP (Tippy.js) === */
 
 .tippy-box {
   background-color: #ffffff !important;
@@ -353,12 +316,10 @@ mark.search-match {
   color: #000000 !important;
 }
 
-/* Pfeil ausblenden — passt nicht zum Neo-Brutalist-Stil */
 .tippy-arrow {
   display: none !important;
 }
 
-/* === OJS CHART CONTAINER === */
 .plot-container .cell-output-display {
   border: 3px solid #000000;
   box-shadow: 5px 5px 0px #000000;
@@ -368,9 +329,8 @@ mark.search-match {
   margin: 16px 0;
 }
 
-/* BUTTONS IM TEXT (Falls du welche benutzt) */
 .btn-primary {
-  background-color: #b852cc !important; /* Das giftgrün aus deinem Screenshot */
+  background-color: #b852cc !important;
   color: #000000 !important;
   border: 2px solid #000000 !important;
   border-radius: 0px !important;

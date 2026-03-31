@@ -209,17 +209,29 @@ ul.task-list li input[type="checkbox"] {
 
 </main> <!-- /main -->
 <script>
+
 window.addEventListener('hashchange', function () {
+
   const hash = window.location.hash.slice(1);
+
   const target = document.getElementById(hash);
+
   if (!target) return;
+
   const offset = hash.startsWith('fn') ? 100 : 60;
+
   setTimeout(function () {
+
     const y = target.getBoundingClientRect().top + window.scrollY - offset;
+
     window.scrollTo({ top: Math.max(0, y), behavior: 'instant' });
+
   }, 80);
+
 });
+
 </script>
+
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     const icon = "";
