@@ -1,0 +1,379 @@
+/* FOOTNOTES: text size */
+.footnotes ol {
+  font-size: 0.5em;
+}
+
+/* FOOTNOTES: links and back-references */
+a.footnote-ref {
+  color: #B932F0 !important;
+  font-weight: bold;
+}
+
+a[href^="#fn"],
+a[href^="#fnref"],
+a.footnote-back,
+.footnotes a {
+  color: #7a1a8e !important;
+}
+
+a[href^="#fn"]:hover,
+a[href^="#fnref"]:hover,
+a.footnote-ref:hover,
+a.footnote-back:hover,
+.footnotes a:hover {
+  color: #b852cc !important;
+}
+
+/* TOC: hover and active color */
+#TOC a {
+  color: #B932F0 !important;
+}
+
+#quarto-sidebar .sidebar-item a:hover,
+#TOC a:hover {
+  color: #8800bf !important;
+}
+
+#TOC a.active,
+#TOC .active > a {
+  color: #7a00b8 !important;
+  font-weight: bold;
+}
+
+/* JUSTIFIED TEXT: all main content paragraphs */
+main p {
+  text-align: justify;
+}
+
+/* EXCEPTIONS: poems, impressum, no-justify sections */
+.poem p, .no-justify p {
+  text-align: left;
+}
+
+/* BLOCKQUOTE: Neo-Brutalist cite style */
+blockquote {
+  border: 3px solid #000000;
+  box-shadow: 4px 4px 0px #000000;
+  padding: 1em 1em 0.8em 2em;
+  margin: 1.5em 0;
+  background: #ffffff;
+  font-style: italic;
+  color: #000000 !important;
+  position: relative;
+}
+
+
+
+blockquote::before {
+  content: "\201C";
+  font-size: 3em;
+  color: #b852cc;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 1;
+  position: absolute;
+  top: -0.1em;
+  left: 0.1em;
+  pointer-events: none;
+}
+
+blockquote::after {
+  content: "\201D";
+  font-size: 3em;
+  color: #b852cc;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 1;
+  position: absolute;
+  bottom: -0.5em;
+  right: 0.1em;
+  pointer-events: none;
+}
+
+blockquote p {
+  margin: 0;
+  padding-left: 1.2em;
+}
+
+/* IMAGES & VIDEOS: Neo-Brutalist frame */
+main img, main video {
+  border: 3px solid #000000;
+  box-shadow: 4px 4px 0px #000000;
+}
+
+/* NAVBAR: Der Showroom-Look */
+.navbar {
+  border: 3px solid #000000 !important; /* Dicker schwarzer Rahmen */
+  margin: 10px; /* Lässt die Navbar "schweben" wie im Showroom */
+  background-color: #ffffff !important; /* Weißer Hintergrund */
+  box-shadow: 4px 4px 0px #000000; /* Der markante Schatten */
+}
+
+/* NAVBAR LOGO: larger fist image */
+.navbar-logo {
+  height: 40px !important;
+  max-height: 40px !important;
+}
+
+/* Hide navbar text title — logo image only */
+.navbar-brand-title,
+.navbar-title,
+.navbar-brand span {
+  display: none !important;
+}
+
+/* NAVBAR LINKS & TEXT */
+.navbar-nav .nav-link {
+  color: #000000 !important;
+  font-weight: 800 !important; /* Extra fett */
+  text-transform: uppercase;
+  padding: 10px 15px !important;
+}
+
+/* === SUCHLEISTE - Brite Theme Showroom Style === */
+
+/* Das Suchformular in der Navbar */
+#quarto-search .aa-Form {
+  border: 3px solid #000000 !important;
+  border-radius: 0px !important;
+  box-shadow: 4px 4px 0px #000000 !important;
+  background-color: #ffffff !important;
+  transition: box-shadow 0.1s ease, transform 0.1s ease;
+}
+
+#quarto-search .aa-Form:focus-within {
+  box-shadow: 6px 6px 0px #000000 !important;
+  transform: translate(-2px, -2px);
+}
+
+/* Das Input-Feld */
+#quarto-search .aa-Input {
+  background-color: #ffffff !important;
+  color: #000000 !important;
+  font-weight: 700 !important;
+  border: none !important;
+  box-shadow: none !important;
+}
+
+#quarto-search .aa-Input::placeholder {
+  color: #555 !important;
+  font-weight: 500;
+}
+
+/* Der Submit-Button (Lupe-Icon) */
+#quarto-search .aa-SubmitButton {
+  background: transparent !important;
+  border: none !important;
+  box-shadow: none !important;
+  color: #000000 !important;
+}
+
+/* Der Clear-Button (X) */
+#quarto-search .aa-ClearButton {
+  background: transparent !important;
+  border: none !important;
+  box-shadow: none !important;
+  color: #000000 !important;
+}
+
+/* Detached-Mode: Nur Lupe sichtbar (Mobilansicht) */
+#quarto-search .aa-DetachedSearchButton {
+  border: 3px solid #000000 !important;
+  border-radius: 0px !important;
+  box-shadow: 4px 4px 0px #000000 !important;
+  background-color: #ffffff !important;
+  padding: 6px 10px !important;
+  transition: all 0.1s ease;
+}
+
+#quarto-search .aa-DetachedSearchButton:hover {
+  transform: translate(-2px, -2px);
+  box-shadow: 6px 6px 0px #000000 !important;
+  background-color: #b852cc !important;
+}
+
+/* Das Ergebnis-Panel */
+#quarto-search-results .aa-Panel {
+  border: 3px solid #000000 !important;
+  border-radius: 0px !important;
+  box-shadow: 5px 5px 0px #000000 !important;
+  background-color: #ffffff !important;
+}
+
+/* Einzelne Suchergebnisse */
+.search-result-link {
+  border-bottom: 2px solid #000000 !important;
+  display: block;
+  text-decoration: none !important;
+  transition: background 0.1s ease;
+}
+
+.search-result-link:hover,
+.search-result-link:focus {
+  background-color: #b852cc !important;
+}
+
+/* Ergebnis-Titel */
+.search-result-title {
+  font-weight: 800 !important;
+  color: #000000 !important;
+}
+
+/* Hervorgehobene Suchtreffer */
+mark.search-match {
+  background-color: #b852cc !important;
+  color: #000000 !important;
+  font-weight: 800;
+  padding: 0 2px;
+}
+
+/* "Keine Ergebnisse"-Meldung */
+.quarto-search-no-results {
+  font-weight: 700;
+  padding: 10px;
+  border-top: 2px solid #000;
+}
+
+/* === SUCH-MODAL (Detached/Overlay Mode) === */
+
+/* Der dunkle Hintergrund hinter dem Modal */
+.aa-DetachedOverlay {
+  background-color: rgba(0, 0, 0, 0.6) !important;
+}
+
+/* Der Modal-Container */
+.aa-DetachedContainer {
+  border: 3px solid #000000 !important;
+  border-radius: 0px !important;
+  box-shadow: 8px 8px 0px #000000 !important;
+  background-color: #ffffff !important;
+  max-width: 600px !important;
+  margin: 40px auto !important;
+}
+
+/* Der Bereich mit dem Suchfeld im Modal */
+.aa-DetachedFormContainer {
+  border-bottom: 3px solid #000000 !important;
+  background-color: #b852cc !important;
+  padding: 12px !important;
+  display: flex !important;
+  align-items: center !important;
+  gap: 10px !important;
+}
+
+/* Das Formular im Modal */
+.aa-DetachedFormContainer .aa-Form {
+  border: 3px solid #000000 !important;
+  border-radius: 0px !important;
+  box-shadow: 4px 4px 0px #000000 !important;
+  background-color: #ffffff !important;
+  flex: 1 !important;
+}
+
+.aa-DetachedFormContainer .aa-Form:focus-within {
+  box-shadow: 6px 6px 0px #000000 !important;
+  transform: translate(-2px, -2px);
+}
+
+/* Abbrechen-Button */
+.aa-DetachedCancelButton {
+  border: 3px solid #000000 !important;
+  border-radius: 0px !important;
+  box-shadow: 4px 4px 0px #000000 !important;
+  background-color: #ffffff !important;
+  color: #000000 !important;
+  font-weight: 800 !important;
+  text-transform: uppercase !important;
+  padding: 6px 14px !important;
+  cursor: pointer !important;
+  transition: all 0.1s ease;
+  white-space: nowrap !important;
+}
+
+.aa-DetachedCancelButton:hover {
+  transform: translate(-2px, -2px);
+  box-shadow: 6px 6px 0px #000000 !important;
+  background-color: #000000 !important;
+  color: #b852cc !important;
+}
+
+/* Ergebnisliste im Modal */
+.aa-Panel,
+.aa-PanelLayout {
+  background-color: #ffffff !important;
+  border-radius: 0px !important;
+}
+
+.aa-List {
+  padding: 0 !important;
+  list-style: none !important;
+}
+
+/* Einzelne Ergebnis-Einträge */
+.aa-Item {
+  border-bottom: 2px solid #000000 !important;
+  padding: 0 !important;
+  cursor: pointer !important;
+  transition: background 0.1s ease;
+}
+
+.aa-Item:last-child {
+  border-bottom: none !important;
+}
+
+.aa-Item[aria-selected="true"],
+.aa-Item:hover {
+  background-color: #b852cc !important;
+}
+
+/* Hervorgehobener Text in Ergebnissen */
+.aa-highlight,
+mark.search-match {
+  background-color: #b852cc !important;
+  color: #000000 !important;
+  font-weight: 800 !important;
+  padding: 0 2px;
+}
+
+/* === FUSSNOTEN-TOOLTIP (Tippy.js) === */
+
+.tippy-box {
+  background-color: #ffffff !important;
+  color: #000000 !important;
+  border: 3px solid #000000 !important;
+  border-radius: 0px !important;
+  box-shadow: 5px 5px 0px #000000 !important;
+  font-size: 14px !important;
+  font-weight: 500 !important;
+  max-width: 320px !important;
+}
+
+.tippy-content {
+  padding: 10px 14px !important;
+  color: #000000 !important;
+}
+
+/* Pfeil ausblenden — passt nicht zum Neo-Brutalist-Stil */
+.tippy-arrow {
+  display: none !important;
+}
+
+/* === OJS CHART CONTAINER === */
+.plot-container .cell-output-display {
+  border: 3px solid #000000;
+  box-shadow: 5px 5px 0px #000000;
+  display: inline-block;
+  padding: 16px;
+  background: #ffffff;
+  margin: 16px 0;
+}
+
+/* BUTTONS IM TEXT (Falls du welche benutzt) */
+.btn-primary {
+  background-color: #b852cc !important; /* Das giftgrün aus deinem Screenshot */
+  color: #000000 !important;
+  border: 2px solid #000000 !important;
+  border-radius: 0px !important;
+  box-shadow: 4px 4px 0px #000000 !important;
+  font-weight: bold !important;
+}
