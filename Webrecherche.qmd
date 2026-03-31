@@ -1,0 +1,99 @@
+---
+title: "Webbasierte Sichtbarkeitsanalyse"
+---
+
+## Methodik
+
+Auf der Suche nach der *Gastarbeiterin* im Web-Gedächtnis stellt sich die Frage, ob und wie oft Informationen über sie auffindbar sind. Um dieser Frage nachzugehen, nutze ich *Google* als Suchmaschine. Meine Entscheidung, Google als Untersuchungsinstrument einzusetzen, begründet sich in seiner Stellung als eine der weltweit meistgenutzten Suchmaschinen.[^1] Das Suchverfahren verfolgt einen qualitativen Ansatz, indem sich die Schlagwortsuche auf die Wörter `„gastarbeiter"`, `„gastarbeiterin"`, `„gastarbeiterinnen"` und `„gastarbeiter*innen"` beschränkt und auf eine kuratierte Auswahl von Webseiten im Live-Web konzentriert.[^2] Weil das Thema einen engen Bezug zu Arbeit und Politik hat, wurde der Fokus auf folgende Institutionen begrenzt:
+
+- die drei größten und präsentesten Gewerkschaften der Bundesrepublik Deutschland
+- gewerkschaftsnahe Stiftungen
+- parteinahe Stiftungen von SPD, CDU und FDP[^3]
+- Bundesoberbehörde und Landesbehörde für politische Bildung (hier: Nordrhein-Westfalen).
+
+### Untersuchungskorpus
+
+| Name der Webseite | URL |
+|---|---|
+| Deutscher Gewerkschaftsbund | https://www.dgb.de/ |
+| Ver.di | https://www.verdi.de/ |
+| IG Metall | https://www.igmetall.de/ |
+| Hans-Böckler-Stiftung (DGB) | https://www.boeckler.de/ |
+| Otto-Brenner-Stiftung (IG Metall) | https://www.otto-brenner-stiftung.de/ |
+| Friedrich-Ebert-Stiftung (SPD) | https://www.fes.de/ |
+| Konrad-Adenauer-Stiftung (CDU) | https://www.kas.de/ |
+| Friedrich-Naumann-Stiftung (FDP) | https://www.freiheit.org/ |
+| Bundeszentrale für politische Bildung | https://www.bpb.de/ |
+| Landeszentrale für politische Bildung Nordrhein-Westfalen | https://www.politische-bildung.nrw/ |
+
+
+### Suchverfahren
+Das Suchverfahren verfolgt insofern einen qualitativen Ansatz, da mit einer kuratierten Auswahl von Schlagwörtern und Webseiten gearbeitet wird. Die Trefferzahlen sollen dabei als quantitative Indikatoren dienen, um das Vorkommnis der *Gastarbeiterin* auf institutionellen Webseiten zu veranschaulichen.
+
+Anhand der erweiterten Suchfunktion (`site:`) werden die zu untersuchenden URLs händisch bei Google eingegeben und die Anzahl der Suchtreffer gesammelt:
+
+- `"gastarbeiter" site:[URL]`
+- `"gastarbeiterin" site:[URL]`
+- `"gastarbeiterinnen" site:[URL]`
+- `("gastarbeiter*innen" OR "gastarbeiter:innen" OR "gastarbeiter/innen") site:[URL]`[^4]
+
+
+
+[^1]: Vgl. Statista (2025): „Market share of leading desktop search engines worldwide from January 2015 to October 2025". https://www.statista.com/statistics/216573/worldwide-market-share-of-search-engines/ (28.03.2026).
+
+[^2]: Dieser Ansatz kann natürlich keine repräsentative Aussage über das inhaltsreiche Web-Gedächtnis geben. Für eine quantitative Analyse wäre beispielsweise eine Schlagwortsuche notwendig, die mithilfe eines umfangreichen Korpus aus assoziativen Synonymen, wie „Arbeitsmigrantin", „weibliche Gastarbeit", „Gastarbeit Frau" etc., zusammengesetzt ist. Darüber hinaus müsste die gesamte Bandbreite der Suchergebnisse mit eingeschlossen werden.
+
+[^3]: Diese drei etablierten Parteien waren im Zeitraum des Anwerbeabkommens und darüber hinaus an der Bundesregierung (mit-)beteiligt und politisch für die *Gastarbeitenden*.
+
+[^4]: Die hier aufgeführten Varianten sind Möglichkeiten, um gendergerechte Sprache darzustellen. Um keine dieser Varianten aus der Suche auszuschließen, werden hier alle drei berücksichtigt. Die Operation „OR" gibt den Befehl, dass eine dieser drei Varianten in der Suche enthalten sein muss. Wenn im weiteren Verlauf vom Schlagwort "gastarbeiter*innen" gesprochen wird, sind damit alle drei Varianten miteinbegriffen.
+
+## Datenerfassung
+
+### Gewerkschaften
+
+Die drei größten Gewerkschaften der Bundesrepublik Deutschland wurden anhand der Schlagwörter untersucht und ergaben folgende Anzahl an Suchtreffer:
+
+| Institution | `gastarbeiter` | `gastarbeiterin` | `gastarbeiterinnen` | `gastarbeiter*innen` |
+|---|:---:|:---:|:---:|:---:|
+| Deutscher Gewerkschaftsbund | 3 | 0 | 1 | 2 |
+| ver.di | 1 | 0 | 0 | 1 |
+| IG Metall | 55 | 3 | 6 | 5 |
+
+### Stiftungen
+
+Ergänzend wurden fünf partei- und gewerkschaftsnahe Stiftungen durchleuchtet.
+
+| Institution | `gastarbeiter` | `gastarbeiterin` | `gastarbeiterinnen` | `gastarbeiter*innen` |
+|---|:---:|:---:|:---:|:---:|
+| Hans-Böckler-Stiftung | 90 | 2 | 6 | 6 |
+| Otto-Brenner-Stiftung | 1 | 0 | 0 | 0 |
+| Friedrich-Ebert-Stiftung | 46 | 5 | 14 | 7 |
+| Konrad-Adenauer-Stiftung | 230 | 1 | 9 | 0 |
+| Friedrich-Naumann-Stiftung | 18 | 1 | 0 | 0 |
+
+### Politische Bildung
+
+Schließlich wurde die Bundesoberbehörde sowie die Landesbehörde für politische Bildung NRW begutachtet.
+
+| Institution | `gastarbeiter` | `gastarbeiterin` | `gastarbeiterinnen` | `gastarbeiter*innen` |
+|---|:---:|:---:|:---:|:---:|
+| Bundeszentrale für politische Bildung | 290 | 16 | 90 | 62 |
+| Landeszentrale für politische Bildung NRW | 4 | 0 | 0 | 1 |
+
+## Auswertung
+
+Die Suchergebnisse offenbaren eine systematische Asymmetrie. Jede untersuchte Institution verzeichnet ein Vielfaches mehr Treffer für `"gastarbeiter"` als für die weiblichen wie genderinklusiven Varianten. Dies spiegelt die Dominanz des generischen Maskulinums wider, was jede Abweichung von der vermeintlich ‚männlichen Norm‘ sprachlich unsichtbar macht. In Aleida Assmanns Begriffen lässt sich das „gestreute und strukturelles Vergessen" hier bestätigen – die sprachliche Abwesenheit der *Gastarbeiterin* ist damit auf institutioneller Ebene quantifizierbar.
+
+Ein aufschlussreiches Beispiel dafür zeigt die Konrad-Adenauer-Stiftung mit 230 Treffern für `"gastarbeiter"`, aber nur 1 für `"gastarbeiterin"`, 9 für `"gastarbeiterinnen"` und 0 für `"gastarbeiter*innen"`. Das Fehlen von genderinklusiver Sprache ist hier selbst ein Befund: es verweist auf ein konservatives Erinnerungsnarrativ, die das generische Maskulinum als Norm beibehält und die Idee der männlichen Erwerbsarbeit stabilisiert. 
+
+Überraschend ist zudem der Befund zu den Gewerkschaften. Ausgerechnet der DGB, als historischer Interessenvertreter der Arbeiter:innenklasse, fällt mit 3 Treffern für `"gastarbeiter"`, 0 für `"gastarbeiterin"` und 2 für `"gastarbeiter*innen"` spärlich aus. Ver.di weist ebenfalls eine kaum vorhandene Online-Präsenz für die *Gastarbeit* auf. Der IG Metall schneidet im Vergleich mit 55 Treffern für `"gastarbeiter"` am stärksten ab, wobei auch hier deutlich wird, dass das generische Maskulinum um fast ein Elffaches mehr auftaucht und damit *Gastarbeiterinnen* signifikant unterrepräsentiert. Auch beim IG Metall scheint die Erwerbsarbeit männlich konnotiert zu sein.  
+
+Interessant ist zudem das nahezu vollständige Fehlen von `"gastarbeiterin"` im Singular. Vergleichsweise kommt die Pluralform `"gastarbeiterin"` beispielsweise bei der Bundeszentrale für politische Bildung um ein fast Vierfaches häufiger vor als die Singularform. Dies deutet darauf hin, dass die *Gastarbeiterin* nicht als Individuum, sondern kollektiv gedacht wird.
+
+Insgesamt wird deutlich, dass die Bundeszentrale für politische Bildung mit Abstand die meisten Treffer über alle Varianten hinweg verzeichnet: 290 Treffer für `"gastarbeiter"`; 16 für `"gastarbeiterin"`; 90 für `"gastarbeiterinnen"` und 62 für `"gastarbeiter*innen"`. Das staatliche Bildungsportal erinnert dort, wo die Gewerkschaften *Gastarbeiterinnen* vergessen.
+
+Dass die Bundeszentrale für politische Bildung mit 62 Treffern und die Friedrich-Ebert-Stiftung mit 7 Treffern relational viele Treffer für `"gastarbeiter*innen"` aufweisen, deutet auf einen sprachlichen Wandel in der Erinnerungspraxis hin und bestätigt Halbwachs' These, dass sich Erinnerung stets an der Gegenwartsrelevanz orientiert. Mit der gesellschaftlichen Durchsetzung geschlechtergerechter Sprache verändert sich auch, *wie* und vor allem *an wen* institutionell erinnert wird.
+
+## Kritische Auseinandersetzung mit der Methodik
+
+Die Kuration der untersuchten Webseiten ist bewusst selektiv und bedarf einer methodischen Reflexion. Zu entscheiden, dass bestimmte Webseiten einen ‚Untersuchungswert' haben, reproduziert schlussendlich eine selektive Konstruktion von subjektiver – also nicht neutraler – Relevanz. Die Untersuchung kann also einem gesamten Abbild des Web-Gedächtnisses nicht gerecht werden, noch eine repräsentative Aussage treffen. Vielmehr richtet sie den Blick gezielt auf jene Institutionen, die gesellschaftliche Erinnerung produzieren und legitimieren: Gewerkschaften als direkte institutionelle Vertreter der Arbeitnehmer:innen; politische Stiftungen als Trägerinnen staatlicher Erinnerungspolitik sowie behördlich-politische Bildungsportale als Instanzen gesellschaftlicher Wissensvermittlung. Denn gerade dort, wo Erinnerung institutionell verankert und damit dauerhaft zugänglich gemacht wird, entscheidet sich, ob die *Gastarbeiterin* Teil des soziokollektiven Gedächtnisses wird oder nicht.

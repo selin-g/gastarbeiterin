@@ -1,0 +1,342 @@
+---
+title: "Web-Archive und das digitale Vermächtnis"
+---
+
+Das wohl bekannteste Webarchive ist das gemeinnützige Projekt *Internet Archive (IA)*. Mit dem Auf- und Ausbau einer digitalen Bibliothek werden digitale Artefakte wie Bücher, Bilder oder Audiodateien im Internet gespeichert und frei verfügbar gemacht. Einen signifikanten Beitrag zur Konservierung des Webs leistet ihr Online-Dienst *Wayback Machine*[^1]. Mithilfe von automatisierten Web-Crawlern generieren und speichern sie Snapshots, also Kopien beziehungsweise Momentaufnahmen von Webseiten, die zu einem späteren Zeitpunkt abruf- und rekonstruierbar sind.[^2]
+
+[^1]: Vgl. Internet Archives (o.J.): „About the Internet Archives". https://archive.org/about/ (20.03.2025).
+
+[^2]: Ein Crawler ist eine Software, die das Web nach bestimmten Informationen oder Markern absucht. Vgl. Luber, Stefan/Litzel, Nico (2018): „Was ist ein Webcrawler?". In: *BigData-Insider*, 12.04.2018. https://www.bigdata-insider.de/was-ist-ein-webcrawler-a-704217/ (21.03.2026).
+
+[^3]: Ogden, Jessica/Summers, Edwards/Walker, Shawn (2024): „Know(ing) Infrastructure. The Wayback Machine as object and instrument of digital research". In: *Convergence: The International Journal of Research into New Media Technologies*, Jg. 30/Nr. 1. S. 169 f.
+
+## Kuratierte Linkliste
+
+Basierend auf den Ergebnissen aus der webbasierten Sichtbarkeitsanalyse wurde je Institution ein Artikel ausgewählt, in dem die *Gastarbeiterin* (1) entweder eine zentrale Rolle spielt, (2) miterwähnt wird oder (3) gar keine Erwähnung findet.
+
+| Institution | Artikel | Kategorie | Schlagwort | URL |
+|---|---|:---:|---|---|
+| Bundeszentrale für politische Bildung | „Gastarbeiterinnen in der Bundesrepublik Deutschland" | (1) | `"gastarbeiterin"`, `"gastarbeiterinnen"` | https://www.bpb.de/themen/migration-integration/kurzdossiers/289051/gastarbeiterinnen-in-der-bundesrepublik-deutschland/ |
+| Friedrich-Ebert-Stiftung | „Die Optimistinnen – Gün Tank über weibliche Arbeitsmigration" | (1) | `"gastarbeiterin"`, `"gastarbeiterinnen"` | https://www.fes.de/news/die-optimistinnen-guen-tank-ueber-weibliche-arbeitsmigration |
+| Deutscher Gewerkschaftsbund | „70 Jahre Gastarbeiter\*innenanwerbung" | (2) | `"gastarbeiter"`, `"gastarbeiterinnen"`, `"gastarbeiter*innen"` | https://www.dgb.de/veranstaltungen/veranstaltung/70-jahre-gastarbeiterinnenanwerbung/ |
+| IG Metall | „Reise ins Ungewisse" | (2) | `"gastarbeiter"`, `"gastarbeiterin"`, `"gastarbeiterinnen"` | https://www.igmetall.de/politik-und-gesellschaft/gleichstellung-und-integration/migration/reise-ins-ungewisse-wie-gastarbeiter-zu-kollegen-wurden |
+| ver.di | „Aus Fremden wurden Freunde" | (2) | `"gastarbeiter"`, `"gastarbeiter*innen"` | https://www.verdi.de/fremden-wurden-freunde |
+| Hans-Böckler-Stiftung | „Arm nach harter Arbeit" | (3) | `"gastarbeiter"` | https://www.boeckler.de/de/boeckler-impuls-arm-nach-harter-arbeit-8870.htm |
+| Konrad-Adenauer-Stiftung | „Rückkehr zur ‚Gastarbeiterpolitik'" | (3) | `"gastarbeiter"` | https://www.kas.de/de/web/die-politische-meinung/artikel/detail/-/content/rueckkehr-zur-gastarbeiterpolitik- |
+| Friedrich-Naumann-Stiftung | „Gastarbeitermodelle sind eine sozioökonomische Katastrophe" | (3) | `"gastarbeiter"` | https://www.freiheit.org/de/gastarbeitermodelle-sind-eine-soziooekonomische-katastrophe |
+| <span style="color: #aaa;">Otto-Brenner-Stiftung</span> | <span style="color: #aaa;">„AP39 Migration"</span> | <span style="color: #aaa;">(3)</span> | <span style="color: #aaa;">`"gastarbeiter"`</span> | <span style="color: #aaa;">https://www.otto-brenner-stiftung.de/fileadmin/user_data/stiftung/02_Wissenschaftsportal/03_Publikationen/AP39_Migration_EN.pdf</span> |
+| <span style="color: #aaa;">Landeszentrale für politische Bildung NRW</span> | <span style="color: #aaa;">Ruhrgebietskinder: Die neue Generation</span> | <span style="color: #aaa;">(2)</span> | <span style="color: #aaa;">`"gastarbeiter"`, `"gastarbeiter*innen"`</span> | <span style="color: #aaa;">https://www.politische-bildung.nrw/mediathek/filme/detailseite/medien/rgk-neuegeneration</span> |
+
+Der einzig verfügbare Link von der Otto-Brenner-Stiftung ist eine PDF-Datei, die zu einer *404-Fehlermeldung* führt und somit nicht im Live-Web auffindbar ist. Bei der Landeszentrale für politische Bildung NRW handelt es sich bei den Suchtreffern nicht um textbasierte Artikel, sondern um thematisch nicht-einschlägige Videos. Um den hier zu untersuchenden Rahmen von Text-Artikeln konsistent zu halten, wird auch die Landeszentrale für politische Bildung NRW ausgeklammert.
+
+## Archivierungsanalyse
+
+Die Archivierungsanalyse untersucht mithilfe der Wayback Machine, wie häufig und über welches Zeitfenster die URLs archiviert wurden – auch Captures genannt. Die lila Balken zeigen die Anzahl der Captures pro Jahr; graue Balken stehen für Jahre ohne Archivierung. Die Zeitachse beginnt jeweils kurz vor dem Veröffentlichungsjahr des Artikels und erstreckt sich bis in das gegenwärtige Jahr 2026. Damit soll sichtbar gemacht werden, wie lange ein Artikel bereits existierte, bevor er erstmals archiviert wurde.
+
+
+```{ojs}
+//| echo: false
+data_bpb = FileAttachment("data/cdx-bpb.json").json()
+data_fes = FileAttachment("data/cdx-fes.json").json()
+data_dgb = FileAttachment("data/cdx-dgb.json").json()
+data_igmetall = FileAttachment("data/cdx-igmetall.json").json()
+data_verdi = FileAttachment("data/cdx-verdi.json").json()
+data_boeckler = FileAttachment("data/cdx-boeckler.json").json()
+data_kas = FileAttachment("data/cdx-kas.json").json()
+data_fns = FileAttachment("data/cdx-fns.json").json()
+data_ottobrenner = FileAttachment("data/cdx-ottobrenner.json").json()
+```
+
+```{ojs}
+//| echo: false
+cdxTimeline = (data, startYear, endYear = 2026) => {
+  const years = d3.range(startYear, endYear + 1);
+  const counts = new Map(years.map(y => [y, 0]));
+  const rows = (data.length > 0 && Array.isArray(data[0]) && data[0][0] === "timestamp")
+    ? data.slice(1) : data;
+  rows.forEach(d => {
+    const y = +d[0].slice(0, 4);
+    if (counts.has(y)) counts.set(y, counts.get(y) + 1);
+  });
+  return years.map(year => ({ year, count: counts.get(year) }));
+}
+```
+
+### (1) Gastarbeiterin als zentrale Figur
+
+#### bpb: „Gastarbeiterinnen in der Bundesrepublik Deutschland"
+
+Der Artikel wurde am 8. November 2021 veröffentlicht und im Jahr 2022 bereits viermal archiviert. Mit 26 Captures zwischen 2022 und 2026 ist er vergleichsweise am häufigsten archiviert – mit einer wachsenden Archivierungskurve in Aussicht.
+
+:::{.plot-container}
+```{ojs}
+//| echo: false
+Plot.plot({
+  title: "Archivierungstimeline: bpb (2020–2026)",
+  width: 680, height: 180, marginLeft: 40, marginBottom: 40, marginTop: 50,
+  style: { fontFamily: "inherit", fontSize: 13, background: "white" },
+  x: { label: null, tickFormat: d => String(d), tickSize: 0, interval: 1 },
+  y: { label: null, axis: null },
+  marks: [
+    Plot.barY(cdxTimeline(data_bpb, 2020), {
+      x: "year",
+      y: d => d.count === 0 ? 1 : d.count,
+      fill: d => d.count === 0 ? "#eeeeee" : "#B932F0",
+      stroke: "#000000", strokeWidth: 2, tip: true,
+      title: d => d.count === 0 ? `${d.year}: keine Archivierung` : `${d.year}: ${d.count} Capture${d.count > 1 ? "s" : ""}`
+    }),
+    Plot.ruleY([0], { stroke: "#000000", strokeWidth: 2 })
+  ]
+})
+```
+:::
+
+<hr>
+
+#### FES: „Die Optimistinnen"
+
+Der Artikel erschien am 28.11.2024 und wurde 2025 erstmals archiviert. Mit lediglich zwei Captures ist seine digitale Sicherung bislang noch minimal. Dies könnte sich in Zukunft aber ändern, da der Artikel recht jung ist.
+
+:::{.plot-container}
+```{ojs}
+//| echo: false
+Plot.plot({
+  title: "Archivierungstimeline: FES (2023–2026)",
+  width: 680, height: 180, marginLeft: 40, marginBottom: 40, marginTop: 50,
+  style: { fontFamily: "inherit", fontSize: 13, background: "white" },
+  x: { label: null, tickFormat: d => String(d), tickSize: 0, interval: 1 },
+  y: { label: null, axis: null },
+  marks: [
+    Plot.barY(cdxTimeline(data_fes, 2023), {
+      x: "year",
+      y: d => d.count === 0 ? 1 : d.count,
+      fill: d => d.count === 0 ? "#eeeeee" : "#B932F0",
+      stroke: "#000000", strokeWidth: 2, tip: true,
+      title: d => d.count === 0 ? `${d.year}: keine Archivierung` : `${d.year}: ${d.count} Capture${d.count > 1 ? "s" : ""}`
+    }),
+    Plot.ruleY([0], { stroke: "#000000", strokeWidth: 2 })
+  ]
+})
+```
+:::
+
+<hr>
+
+### (2) Gastarbeiterin miterwähnt
+
+#### DGB: „70 Jahre Gastarbeiter\*innenanwerbung"
+
+Der Artikel erschien im Kontext eines Veranstaltungshinweises auf den 23. Oktober 2025: 70 Jahre nach dem ersten Anwerbeabkommen mit Italien. Die erste Archivierung stammt aus dem Jahr 2025, also noch im Erscheinungsjahr. Interessant ist die Tatsache, dass der DGB, trotz seiner historischen Funktion als direkter institutioneller Interessenvertreter der *Gastarbeitenden*, erst zum 70. Jahrestag des Anwerbeabkommens genderinklusiv über die *Gastarbeit* berichtet.
+
+:::{.plot-container}
+```{ojs}
+//| echo: false
+Plot.plot({
+  title: "Archivierungstimeline: DGB (2024–2026)",
+  width: 680, height: 180, marginLeft: 40, marginBottom: 40, marginTop: 50,
+  style: { fontFamily: "inherit", fontSize: 13, background: "white" },
+  x: { label: null, tickFormat: d => String(d), tickSize: 0, interval: 1 },
+  y: { label: null, axis: null },
+  marks: [
+    Plot.barY(cdxTimeline(data_dgb, 2024), {
+      x: "year",
+      y: d => d.count === 0 ? 1 : d.count,
+      fill: d => d.count === 0 ? "#eeeeee" : "#B932F0",
+      stroke: "#000000", strokeWidth: 2, tip: true,
+      title: d => d.count === 0 ? `${d.year}: keine Archivierung` : `${d.year}: ${d.count} Capture${d.count > 1 ? "s" : ""}`
+    }),
+    Plot.ruleY([0], { stroke: "#000000", strokeWidth: 2 })
+  ]
+})
+```
+:::
+
+<hr>
+
+#### IG Metall: „Reise ins Ungewisse"
+
+Der Artikel wurde am 28. Oktober 2021 veröffentlicht und noch im Erscheinungsjahr archiviert. Mit 15 Captures bis 2026, gleichmäßig über alle Jahre verteilt, ist „Reise ins Ungewisse" der am kontinuierlichsten archivierte Artikel der Kategorie (2).
+
+:::{.plot-container}
+```{ojs}
+//| echo: false
+Plot.plot({
+  title: "Archivierungstimeline: IG Metall (2020–2026)",
+  width: 680, height: 180, marginLeft: 40, marginBottom: 40, marginTop: 50,
+  style: { fontFamily: "inherit", fontSize: 13, background: "white" },
+  x: { label: null, tickFormat: d => String(d), tickSize: 0, interval: 1 },
+  y: { label: null, axis: null },
+  marks: [
+    Plot.barY(cdxTimeline(data_igmetall, 2020), {
+      x: "year",
+      y: d => d.count === 0 ? 1 : d.count,
+      fill: d => d.count === 0 ? "#eeeeee" : "#B932F0",
+      stroke: "#000000", strokeWidth: 2, tip: true,
+      title: d => d.count === 0 ? `${d.year}: keine Archivierung` : `${d.year}: ${d.count} Capture${d.count > 1 ? "s" : ""}`
+    }),
+    Plot.ruleY([0], { stroke: "#000000", strokeWidth: 2 })
+  ]
+})
+```
+:::
+
+<hr>
+
+#### ver.di: „Aus Fremden wurden Freunde"
+
+Der einzige Artikel von ver.di über *Gastarbeitende* erschien am 29. Oktober 2021 und wurde von der Wayback Machine bis heute **niemals archiviert**. Dies ist ein interessanter Fall: Sollte er gelöscht werden, wäre er unwiderruflich verloren und damit im Web-Gedächtnis vollständig absent. Dabei handelt es sich ausgerechnet um einen Artikel, in dem *Gastarbeiter:innen* zumindest miterwähnt werden.
+
+:::{.plot-container}
+```{ojs}
+//| echo: false
+Plot.plot({
+  title: "Archivierungstimeline: ver.di (2020–2026)",
+  width: 680, height: 180, marginLeft: 40, marginBottom: 40, marginTop: 50,
+  style: { fontFamily: "inherit", fontSize: 13, background: "white" },
+  x: { label: null, tickFormat: d => String(d), tickSize: 0, interval: 1 },
+  y: { label: null, axis: null },
+  marks: [
+    Plot.barY(cdxTimeline(data_verdi, 2020), {
+      x: "year",
+      y: d => d.count === 0 ? 1 : d.count,
+      fill: d => d.count === 0 ? "#eeeeee" : "#B932F0",
+      stroke: "#000000", strokeWidth: 2, tip: true,
+      title: d => d.count === 0 ? `${d.year}: keine Archivierung` : `${d.year}: ${d.count} Capture${d.count > 1 ? "s" : ""}`
+    }),
+    Plot.ruleY([0], { stroke: "#000000", strokeWidth: 2 })
+  ]
+})
+```
+:::
+
+<hr>
+
+### (3) Keine Erwähnung
+
+#### Hans-Böckler-Stiftung: „Arm nach harter Arbeit"
+
+Der Artikel erschien im Informationsdienst Böckler Impuls im Jahr 2014, doch wurde erst 2025 erstmals archiviert – also rund elf Jahre nach seiner Veröffentlichung. Mit acht Captures allein aus dem Jahr 2025 ist er zwar nun im Archiv präsent, doch sein gesamtes erstes Jahrzehnt blieb im Web ungesichert. Der Artikel thematisiert harte Arbeit, allerdings findet die Erwähnung der *Gastarbeiterin* darin keinen Platz.
+
+:::{.plot-container}
+```{ojs}
+//| echo: false
+Plot.plot({
+  title: "Archivierungstimeline: Hans-Böckler-Stiftung (2013–2026)",
+  width: 680, height: 180, marginLeft: 40, marginBottom: 40, marginTop: 50,
+  style: { fontFamily: "inherit", fontSize: 13, background: "white" },
+  x: { label: null, tickFormat: d => String(d), tickSize: 0, interval: 1 },
+  y: { label: null, axis: null },
+  marks: [
+    Plot.barY(cdxTimeline(data_boeckler, 2013), {
+      x: "year",
+      y: d => d.count === 0 ? 1 : d.count,
+      fill: d => d.count === 0 ? "#eeeeee" : "#B932F0",
+      stroke: "#000000", strokeWidth: 2, tip: true,
+      title: d => d.count === 0 ? `${d.year}: keine Archivierung` : `${d.year}: ${d.count} Capture${d.count > 1 ? "s" : ""}`
+    }),
+    Plot.ruleY([0], { stroke: "#000000", strokeWidth: 2 })
+  ]
+})
+```
+:::
+
+<hr>
+
+#### Konrad-Adenauer-Stiftung: „Rückkehr zur Gastarbeiterpolitik"
+
+Der Artikel erschien am 20. Oktober 2015, wurde aber erst 2020, rund fünf Jahre später, erstmals archiviert. Danach folgte eine weitere dreijährige Lücke bis zur zweiten Archivierung im Jahr 2023. Seitdem existiert kein weiteres Capture. Dieses diskontinuierliche Muster bedeutet, dass zwischenzeitliche Versionen der Webseite nicht dokumentiert sind. Mit 230 Treffern für `"gastarbeiter"` weist die Konrad-Adenauer-Stiftung die zweithöchste institutionelle Präsenz, wie aus der webbasierten Sichtbarkeitsanalyse hervorgeht, für den Begriff auf. Umso auffälliger ist die geringe Archiviertätigkeit für einen einschlägigen Artikel.
+
+:::{.plot-container}
+```{ojs}
+//| echo: false
+Plot.plot({
+  title: "Archivierungstimeline: Konrad-Adenauer-Stiftung (2014–2026)",
+  width: 680, height: 180, marginLeft: 40, marginBottom: 40, marginTop: 50,
+  style: { fontFamily: "inherit", fontSize: 13, background: "white" },
+  x: { label: null, tickFormat: d => String(d), tickSize: 0, interval: 1 },
+  y: { label: null, axis: null },
+  marks: [
+    Plot.barY(cdxTimeline(data_kas, 2014), {
+      x: "year",
+      y: d => d.count === 0 ? 1 : d.count,
+      fill: d => d.count === 0 ? "#eeeeee" : "#B932F0",
+      stroke: "#000000", strokeWidth: 2, tip: true,
+      title: d => d.count === 0 ? `${d.year}: keine Archivierung` : `${d.year}: ${d.count} Capture${d.count > 1 ? "s" : ""}`
+    }),
+    Plot.ruleY([0], { stroke: "#000000", strokeWidth: 2 })
+  ]
+})
+```
+:::
+
+<hr>
+
+#### Friedrich-Naumann-Stiftung: „Gastarbeitermodelle"
+
+Der Artikel erschien am 16. Januar 2020 und wurde 2021 erstmals archiviert. Seitdem findet sich kein weiteres Capture. Sollte der Artikel heute gelöscht werden, existiert nur dieser eine, inzwischen veraltete Snapshot. Ein Artikel, der die Gastarbeiterin vollständig ausblendet, läuft selbst Gefahr, aus dem digitalen Gedächtnis zu verschwinden.
+
+:::{.plot-container}
+```{ojs}
+//| echo: false
+Plot.plot({
+  title: "Archivierungstimeline: Friedrich-Naumann-Stiftung (2019–2026)",
+  width: 680, height: 180, marginLeft: 40, marginBottom: 40, marginTop: 50,
+  style: { fontFamily: "inherit", fontSize: 13, background: "white" },
+  x: { label: null, tickFormat: d => String(d), tickSize: 0, interval: 1 },
+  y: { label: null, axis: null },
+  marks: [
+    Plot.barY(cdxTimeline(data_fns, 2019), {
+      x: "year",
+      y: d => d.count === 0 ? 1 : d.count,
+      fill: d => d.count === 0 ? "#eeeeee" : "#B932F0",
+      stroke: "#000000", strokeWidth: 2, tip: true,
+      title: d => d.count === 0 ? `${d.year}: keine Archivierung` : `${d.year}: ${d.count} Capture${d.count > 1 ? "s" : ""}`
+    }),
+    Plot.ruleY([0], { stroke: "#000000", strokeWidth: 2 })
+  ]
+})
+```
+:::
+
+<hr>
+
+### (4) Eine exemplarischer Fund
+
+#### Otto-Brenner-Stiftung: „AP39 Migration"
+
+Obwohl die Otto-Brenner-Stiftung aus der Analyse ausgeklammert wurde, sollte trotzdem der Versuch vorgenommen werden, die URL in die Wayback Machine einzugeben. Im Live-Web gibt sie eine 404-Fehlermeldung zurück. Dennoch hat die Wayback Machine das PDF zwischen 2020 und 2024 insgesamt **zehnmal** archiviert, zuletzt im Jahr 2024. Damit wäre die PDF rekonstruierbar. Das Internet Archive zeigt hier beispielhaft, wofür digitale Archivierungsprozesse so notwendig sind.
+
+:::{.plot-container}
+```{ojs}
+//| echo: false
+Plot.plot({
+  title: "Archivierungstimeline: Otto-Brenner-Stiftung (2019–2026)",
+  width: 680, height: 180, marginLeft: 40, marginBottom: 40, marginTop: 50,
+  style: { fontFamily: "inherit", fontSize: 13, background: "white" },
+  x: { label: null, tickFormat: d => String(d), tickSize: 0, interval: 1 },
+  y: { label: null, axis: null },
+  marks: [
+    Plot.barY(cdxTimeline(data_ottobrenner, 2019), {
+      x: "year",
+      y: d => d.count === 0 ? 1 : d.count,
+      fill: d => d.count === 0 ? "#eeeeee" : "#B932F0",
+      stroke: "#000000", strokeWidth: 2, tip: true,
+      title: d => d.count === 0 ? `${d.year}: keine Archivierung` : `${d.year}: ${d.count} Capture${d.count > 1 ? "s" : ""}`
+    }),
+    Plot.ruleY([0], { stroke: "#000000", strokeWidth: 2 })
+  ]
+})
+```
+:::
+
+## Befund
+
+Aus den obigen Ergebnissen lässt sich weder ein repräsentativer noch kohärenter Befund darüber liefern, nach welchen Schemata die Artikeln archiviert wurden – zumal die Ergebnisse deutliche Unterscheidungen aufweisen. Es ist davon auszugehen, dass die Archivierpraktiken keiner thematischen oder sprachlichen Logik folgen, sondern vielmehr auf institutioneller Ebene stattfinden. Dies lässt sich daraus ableiten, wie unterschiedlich die Häufigkeiten sowie die Zeitintervalle der Archiviervorgänge je Institution sind. 
+
+Die Bundeszentrale für politische Bildung sowie der IG Metall präsentieren sich in der Analyse als beispielgebende Institutionen, deren Artikel regelmäßig in der Wayback Machine archiviert wurden. Dies wirft die Frage auf, wieso die restlichen Institutionen – die Friedrich-Ebert-Stiftung und der DGB aufgrund der jungen Veröffentlichungsdaten ausgenommen – Unregelmäßigkeiten, Unvollständigkeiten, und im Fall von ver.di gar eine Nichtexistenz in ihren Archivierpraktiken aufweisen. Es lässt sich nur mutmaßen, ob es sich hier nicht etwa um ein strukturelles Problem handelt, wonach Institutionen keine Verantwortung für das gesellschaftliche Erinnern durch Web-Archivierungen übernehmen. 
+
+Schlussendlich ist es aber auch notwendig zu unterstreichen, dass die hier durchgeführte Archivierungsanalyse lediglich einen kleinen, selektiv-kuratierten Einblick in die Archivierpraktiken von acht (beziehungsweise neun) Artikeln aus zehn institutionellen Webpräsenzen bietet. Ob und wie die *Gastarbeiterin* im breiteren Web-Gedächtnis vertreten ist, lässt sich daraus nicht ableiten.
+
+## Analytische Limitation
+
+Neben Web-Crawlern gibt es noch das integrierte Tool *Save Page Now* von IA „that allows users to capture and preserve web content"[^3]. Damit ermöglicht das IA die Liberalisierung der Webarchivierung, indem sowohl Institutionen als auch Individuen aktiv daran mitwirken können. Dieser interessante Aspekt könnte im Rahmen weiterer Analysen nicht nur Aufschluss über die Akteur:innen geben, sondern auch epistemische Einblicke darin bieten, welche Webseiten und Informationen als besonders ‚archivierungswürdig‘ empfunden wurden. 

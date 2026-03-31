@@ -1,0 +1,43 @@
+---
+title: "Mein Name ist Ausländer"
+subtitle: "von Semra Ertan (1981)"
+---
+
+<div style="max-width: 600px; width: 100%; margin-bottom: 2em;">
+<img src="images/semra-ertan.jpg" alt="Semra Ertan" style="display: block; width: 100%;">
+<div style="font-size: 0.75em; color: #555; font-style: italic; margin-top: 4px; margin-left: 3px;">
+Semra Ertan schrieb mehr als 350 Gedichte über die Lebensrealität von Gastarbeiter:innen, harte körperliche Arbeit, Armut und den Rassismus in der BRD. © renk. (2020): "Wie viele Opfer noch?! Die tragische Geschichte von Semra Ertan". https://renk-magazin.de/wieviele-opfer-noch/ (02.03.2026)</a>
+</div>
+</div>
+
+::: {.poem}
+Mein Name ist Ausländer,\
+Ich arbeite hier,\
+Ich weiß, wie ich arbeite,\
+Ob die Deutschen es auch wissen?\
+Meine Arbeit ist schwer,\
+Meine Arbeit ist schmutzig.\
+Das gefällt mir nicht, sage ich.\
+„Wenn dir die Arbeit nicht gefällt,\
+geh in deine Heimat“, sagen sie.\
+Meine Arbeit ist schwer,\
+Meine Arbeit ist schmutzig,\
+Mein Lohn ist niedrig.\
+Auch ich zahle Steuern, sage ich.\
+Ich werde es immer wieder sagen,\
+Wenn ich immer wieder hören muss:\
+„Suche dir eine andere Arbeit.“\
+Aber die Schuld liegt nicht bei den Deutschen,\
+liegt nicht bei den Türken.\
+Die Türkei braucht Devisen,\
+Deutschland braucht Arbeitskräfte.\
+Mein Land hat uns nach Deutschland verkauft,\
+Wie Stiefkinder,\
+Wie unbrauchbare Menschen.\
+Aber dennoch braucht sie Devisen,\
+Braucht sie Ruhe.\
+Mein Land hat mich nach Deutschland verkauft.\
+Mein Name ist Ausländer.[^1]
+:::
+
+[^1]: Semra Ertan zog 1972 im Rahmen des Familiennachzugs als Kind sogenannter Gastarbeiter:innen aus der Türkei in die Bundesrepublik Deutschland. Als Dichterin, Arbeiterin und Aktivistin protestierte Ertan gegen den vorherrschenden Rassismus in der BRD. 1982 nahm sie sich im Alter von 25 Jahren aus Protest gegen die gravierende Ausländer:innenfeindlichkeit auf offener Straße das Leben. Hier liest sich eins ihrer Gedichte aus: Ertan, Semra (1981): „Mein Name ist Ausländer”. In: dies. (2020): *Mein Name ist Ausländer*. Herausgegeben von Bilir-Meier, Zühal/Bilir-Meier, Cana. Münster: edition assemblage. S. 176.

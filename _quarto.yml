@@ -1,0 +1,50 @@
+project:
+  type: website
+  
+#execute:
+#  freeze: false
+
+website:
+  title: "Gastarbeiterin"
+  navbar:
+    left:
+      - href: Einleitung.qmd
+        text: Einleitung
+      - href: Gastarbeiterinnen.qmd
+        text: Gastarbeiterinnen
+      - href: Erinnern.qmd
+        text: Erinnern
+      - href: Webrecherche.qmd
+        text: Websuche
+      - href: Archivpraktik.qmd
+        text: Archivpraktik
+      - href: Fazit.qmd
+        text: Fazit
+      - href: Quellen.qmd
+        text: Quellen
+        
+    right:
+      - href: Über.qmd
+        text: Über
+    background: white
+    foreground: dark
+    css: styles.css
+    search: true              
+    logo: images/fist.png
+
+language:
+  section-title-footnotes: "Fußnoten"
+
+format:
+  html:
+    theme: brite
+    css: styles.css
+    toc: true
+    toc-location: left
+    toc-title: "Auf dieser Seite"
+    toc-depth: 3
+    smooth-scroll: true
+    include-after-body: custom.html
+
+editor: visual
+

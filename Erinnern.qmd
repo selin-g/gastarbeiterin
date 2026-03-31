@@ -1,0 +1,66 @@
+---
+title: "Zwischen Erinnern und Vergessen"
+---
+
+> Welche Gruppe schafft es, Eingang in die Erinnerungslandschaft zu finden? Wer spricht über wen? Wer ist dazu legitimiert? Zu welchem Zweck wird erinnert und gedacht?[^1]
+
+[^1]: Motte, Jan/Ohlinger, Rainer: „Geschichte und Gedächtnis in der Einwanderungsgesellschaft. Einführende Betrachtungen." In: dies. (2004; Hg.): *Geschichte und Gedächtnis in der Einwanderungsgesellschaft. Migration zwischen historischer Rekonstruktion und Erinnerungspolitik*. Essen: Klartext Verlag. S. 12.
+
+## Das soziale Gedächtnis
+
+Maurice Halbwachs Idee der Soziogenese des individuellen Gedächtnisses prägte maßgeblich die kulturwissenschaftliche Gedächtnisforschung. Nach Halbwachs ist das individuelle Gedächtnis nicht biologisch determiniert. Vielmehr stünde es in Interaktion mit sozialen wie kulturellen Rahmen, die durch Sozialisation, Gruppenbezogenheit sowie gesellschaftlicher Gegenwartsrelevanz bestimmt werden. Wie und woran ein Individuum erinnert, also die Vergangenheit in der Gegenwart rekonstruiert, sei demnach abhängig von dem „spezifische[n] System der Weltsicht einer sozialen Gruppe".[^2] Erinnern ist nach Halbwachs also sozial vermittelt und unterliegt durch seine Situierung einer Politik der Selektion. Dazu ergänzend beobachtete der psychologische Gedächtnisforscher Frederic C. Bartlett, der wie Halbwachs das Konzept des sozial determinierten Erinnerns prägte, dass beispielsweise nicht zuordbare Informationen entweder verschwinden oder umgeformt werden, „weil es wenig Anknüpfungspunkte an sozialisierte Erzähl- und Deutungsmuster bietet".[^3] Einfacher gesagt: woran sich eine Gesellschaft erinnert, speist sich aus einer selektierten soziokulturellen, aber auch institutionellen Relevanz.
+
+Nach dem zweiten Weltkrieg wurden Erinnerungspolitiken und -praktiken in Deutschland vorwiegend der Aufarbeitung des Nationalsozialismus gewidmet. Durch die Anwerbung von ausländischen Arbeitskräften ergab sich für „die diskreditierten Deutschen"[^4], so schreibt Hunn, eine Möglichkeit des neuen positiven Selbstverständnisses. In diesem Zusammenhang kann von einer Form des Vergessens gesprochen werden, die dazu dient, eine neue deutsche Identität zu konstituieren. Nach Paul Connerton werden demnach jene Erinnerungen abgelegt, die die gegenwartsrelevante Identität nicht widerspiegeln. Es sollte eine neue, wirtschaftlich-progressive deutsche Nachkriegs-Identität geformt werden.[^5] Dass dies unter prekären wie diskriminierenden Lebensrealitäten und ausbeuterischen Arbeitsbedingungen für die *Gastarbeitenden* realisiert wurde, blieb dabei unbeachtet.
+
+## Vergeschlechtlichte Muster des Gedächtnisses
+
+Wer erinnert und wer wird erinnert? Was als gegenwärtig relevant und erinnerungswürdig eingestuft wird, steht auch immer zu hegemonialen, soziokulturellen wie historischen Kontexten. Dass das Gedächtnis ein patriarchal-verwurzeltes Privileg ist, legt Aleida Assmann historisch bereits der Weiterführung des Familiennamens nahe. „In einer patriarchalischen Ordnung" schreibt Assmann, „treten Frauen genealogisch als Namensträger nicht in Erscheinung; obwohl sie so entscheidend für die Reproduktion der Familie sind".[^6] Dass Frauen einen Ausschluss aus der Geschichtsschreibung erlebten, unterliegt eben auch der eurozentrisch-aufklärerischen Dichotomie des Naturalisiert-Weiblichen gegenüber des Kulturell-Männlichen. Die Naturalisierung der Frau sei „auf ewige Wiederholung angelegt und [hinterlasse] keine Spuren. Die Geschichte [und männlich konnotierte Kultur] dagegen beruh[e] auf Spuren und andauerndem Gedächtnis".[^7] Was Assmann als gestreutes und strukturelles Vergessen bezeichnet[^8], verdeutlicht patriarchale Machtstrukturen, wenn es um die Konstruktion des Erinnerns geht. Plausibel erscheint folglich die historische Unterrepräsentation von Frauen, sowohl im Kanon als auch in Archiven, wenn ihren Erfahrungen weder Relevanz noch Würdigung zugesprochen wurden.[^9]
+
+## Erinnern zwischen Geschlecht und Ethnie
+
+Dass es inzwischen theoretische als auch empirisch-gestützte Erkenntnisse zur historischen Entwicklung der Kategorie *Frau* gibt, geht auf die wissenschaftlichen Arbeiten der Frauen- und Geschlechterforschung zurück. Die Frauenforschung in Deutschland hatte ihre Anfänge Ende der 1960er Jahre und war „Forschung von deutschen Frauen, über deutsche Frauen und für deutsche Frauen".[^10] Eine intersektionale[^11] Erweiterung der Kategorie *Frau* — um Ethnizität, Migration und Rassismus — blieb in der deutschen feministischen Theoriebildung bis in die 1990er Jahre unberücksichtigt[^12] und damit auch die soziale Lage sowie die Lebensrealität der migrantischen Arbeiterin unsichtbar. Stattdessen habe sich ein neues Hierarchieverhältnis zwischen Frauen entwickelt — bestimmt von der Dichotomie einheimisch und ausländisch[^13] — oder wie Sedef Gümen formuliert: „Die homogene Kategorie Frau entspricht einem als homogen gedachten Nationalstaat".[^14] Letzteres kritisiert den „Mythos einer homogenen [deutschen] kulturellen Identität"[^15], die sich Gümen zufolge daraus konstruierte, dass die Bundesrepublik sich selbst lange nicht als eine Einwanderungsgesellschaft verstand (oder zumindest verstehen wollte).
+
+## Das Web als zeitgenössisches Gedächtnismedium
+
+Bisher lässt sich resümieren, dass das Vergessen der nationalsozialistischen Vergangenheit zur Konstitution einer neuen deutschen Identität nütze. Dies wiederum führte zum Ausblenden oder Vergessen von dem, was nicht als soziokulturell — basierend auf vergeschlechtlichten und ethnisierten Machtverhältnissen — gegenwartsrelevant galt. Aber wie verhält sich das Erinnern und Vergessen in einem Zeitalter, das durch informationellen Überfluss sowie der Möglichkeit der zivilgesellschaftlichen Partizipation im Internet bestimmt ist?
+
+Seit Anbeginn der menschlichen Zivilisationen werden Geschichten und Informationen in Gesellschaften und sozialen Gruppen übergenerational weitergegeben: erst durch das Medium der Sprache, dann durch ihre Externalisierung auf Schrift und Buchdruck bis zur heutigen räumlich-globalen Entgrenzung durch das *World Wide Web*. Erinnern steht damit in einer Wechselbeziehung zum zeitlich vorhandenen Medium, das die Art und Dauer der Speicherung und Übermittlung von Informationen definiert. Verändern sich technologische Gegebenheiten, ändern sich auch die sozialen Praktiken des Erinnerns.[^16] Dass Medien als Erinnerungstechnologien nicht neutral, sondern selektiv sind und historisch-situative Normen und Werte sowie hegemoniale Wahrnehmungs- und Machtstrukturen verbergen[^17], wurde hier bereits zuvor ausgelegt. Mit der Verbreitung des *Web 2.0*[^18] expandierte die Fülle und Verfügbarkeit an vorhandenen und (re-)produzierten Informationen — das Erinnern wurde zu einer Norm, oder wie Esposito es nennt, zu einem stets abrufbaren Default-Wert[^19]. Als gesellschaftlich-partizipativer Ansatz weist das sogenannte Web-Gedächtnis Parallelen zum sozialen Gedächtnis auf. Schließlich tragen diejenigen, die im Web Informationen produzieren und *re*produzieren, zur Kuration des (digitalen) soziokulturellen Relevanzrahmens bei — sofern man den Einfluss von rankingbasierten Algorithmen der Websuchmaschinen ausklammert. Deren Intransparenz birgt die Gefahr, besonders populäre und reichweitenstarke Informationen zu überrepräsentieren. Darüber hinaus gilt es das Web als fassloses Gedächtnis zu hinterfragen, zumal es ein dynamisches System von Informationen birgt, das verschoben, geändert oder gelöscht werden kann und damit der Illusion einer stetigen Verfügbarkeit entgegentritt.
+
+Webarchive bieten eine zukunftsorientierte Möglichkeit, dem Äther des Webs eine Infrastruktur, Stabilität sowie Bestand zu verleihen. Schließlich müssen wir uns fragen: Was möchten wir der Menschheitsgeschichte über das Web hinterlassen?
+
+[^2]: Münch, Felix: „Maurice Halbwachs, Les cadres sociaux de la mémoire". In: Leggewie, Claus et. al. (2012; Hg.): *Schlüsselwerke der Kulturwissenschaften*. Bielefeld: transcript Verlag. S. 154.
+
+[^3]: Gudehus, Christian: „Frederic C. Bartlett, Remembering". In: Leggewie, Claus et. al. (2012; Hg.): *Schlüsselwerke der Kulturwissenschaften*. Bielefeld: transcript Verlag. S. 156.
+
+[^4]: Hunn, Karin: ‚„Irgendwann kam das Deutschlandfieber auch in unsere Gegend...'". S. 74.
+
+[^5]: Vgl. Connerton, Paul (2008): „Seven types of forgetting". In: *Memory Studies*, Jg. 1/Nr. 1. S. 63 f.
+
+[^6]: Assmann, Aleida (2006): „Geschlecht und kulturelles Gedächtnis". In: *Freiburger FrauenStudien: Zeitschrift für interdisziplinäre Frauenforschung*, Jg. 12/Nr. 2. S. 37.
+
+[^7]: Ibid. S. 39.
+
+[^8]: Vgl. ibid. S. 38.
+
+[^9]: Vgl. ibid. S. 41.
+
+[^10]: Bednarz-Braun/Heß-Meining: *Migration, Ethnie und Geschlecht*. S. 67.
+
+[^11]: Die Intersektionalität definiert Verschränkungen von gleichzeitig wirkenden sozialen Ungleichheiten und Diskriminierungsformen, die überkreuzend (eng. intersectional) zur Kategorie Geschlecht wirken und hierarchisch organisiert sind. Einschlägig dazu: Degele, Nina: „Intersektionalität: Perspektiven der Geschlechterforschung". In: Kortendiek, Beate/Riegraf, Birgit/Sabisch, Katja (2018; Hg.): *Handbuch Interdisziplinäre Geschlechterforschung*. Wiesbaden: Springer VS. S. 1–8.
+
+[^12]: Vgl. Bednarz-Braun/Heß-Meining: *Migration, Ethnie und Geschlecht*. S. 70 f.
+
+[^13]: Vgl. ibid. S. 67; vgl. Gümen, Sedef: „Das Soziale des Geschlechts". S. 140.
+
+[^14]: Ibid.
+
+[^15]: Ibid. S. 146.
+
+[^16]: Vgl. Esposito, Elena: „Die Formen des Web-Gedächtnisses. Medien und soziales Gedächtnis". In: Lehmann, René/Öchsner, Florian/Sebald, Gerd (2013; Hg.): *Formen und Funktionen sozialen Erinnerns. Sozial- und kulturwissenschaftliche Analysen*. Wiesbaden: Springer VS. S. 91 f.
+
+[^17]: Vgl. Erll, Astrid: „Medium des kollektiven Gedächtnisses: Ein (erinnerungs-)kulturwissenschaftlicher Kompaktbegriff". In: dies./Nünning, Ansgar (2004; Hg.): *Medien des kollektiven Gedächtnisses: Konstruktivität — Historizität — Kulturspezifität*. Berlin/New York: De Gruyter. S. 5.
+
+[^18]: Das Web 2.0 bezeichnet die interaktive Entwicklung des Internets, in der Nutzer:innen das Internet aktiv mitgestalten und selbst zu Produzent:innen von Inhalten werden konnten. Definiert nach: Bundeszentrale für politische Bildung (o.J.): „Web 2.0". https://www.bpb.de/themen/medien-journalismus/medienpolitik/500735/web-2-0 (20.03.2026).
+
+[^19]: Vgl. Esposito: „Die Formen des Web-Gedächtnisses". S. 92.
+
